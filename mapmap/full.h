@@ -10,6 +10,11 @@
 #ifndef __MAPMAP_FULL_H_
 #define __MAPMAP_FULL_H_
 
+#if defined(_WIN32)
+#define WIN32_LEAN_AND_MEAN
+#define NOMINMAX
+#endif
+
 /* basic classes */
 #include "header/color.h"
 #include "header/costs.h"
